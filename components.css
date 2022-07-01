@@ -128,7 +128,7 @@
 
 /* footer style starts*/
 
-/* Design for the mobile device */
+/* ------Design for the mobile device------ */
 footer {
     background: var(--lightGreen-1);
     padding-top: 5rem;
@@ -191,6 +191,7 @@ footer {
     line-height: 1.4em;
 }
 
+/* ------Design for the mobile device------ */
 @media only screen and (min-width: 768px) {
     footer {
         padding-top: 8rem;
@@ -250,4 +251,4 @@ footer {
         text-align: left;
     }
 }
-/* copyright style starts */
+/* copyright style ends */
