@@ -485,4 +485,101 @@
         margin-bottom: 2rem;
     }
 }
+/* events info section style ends */
+
+
+/* why choose us section style starts */
+/* ------For mobile device------ */
+.whyUs__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.whyUs__left {
+    text-align: center;
+}
+
+.whyUs__title {
+    font-family: Poppins;
+    font-size: 1.8rem;
+    color: var(--black-1);
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.whyUs__text {
+    font-size: 1.4rem;
+}
+
+.whyUs__items__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.whyUs__item {
+    background: var(--lightGreen-1);
+    padding: 2rem;
+    border-radius: 12px;
+    text-align: center; 
+}
+
+.whyUs__item__icon {
+    max-width: 56px;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+
+.whyUs__item__text {
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--black-1);
+}
+
+/* ------For large device------ */
+@media only screen and (min-width: 768px) {
+    .whyUs__wrapper {
+        flex-direction: row;
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    .whyUs__left {
+        flex: 4;
+        text-align: left;
+    }
+
+    .whyUs__right {
+        flex: 3;
+    }
+
+    .whyUs__title {
+        font-size: 3.6rem;
+        margin-bottom: 2rem;
+    }
+
+    .whyUs__text {
+        font-size: 1.8rem;
+        line-height: 1.4em;
+    }
+
+    .whyUs__items__wrapper {
+        gap: 1.5rem;
+    }
+    
+    .whyUs__item__icon {
+        max-width: 65px;
+        margin-bottom: 1.5rem;
+    }
+
+    .whyUs__item__text {
+        font-size: 1.8rem;
+    }
+}
+
+/* why choose us section style ends */
 
