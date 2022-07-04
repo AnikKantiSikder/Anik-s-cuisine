@@ -352,4 +352,38 @@
         gap: 2rem;
     }
 }
-/* discount section style eds */
+/* discount section style ends */
+
+/* events media section style ends */
+/* ------For mobile device------ */
+.eventsMedia__wrapper {
+    display: flex;
+    gap: 1rem;
+}
+
+.eventsMedia__1 {
+    position: relative;
+}
+
+.eventsMedia__1__playButton {
+    position: absolute;
+    display: inline-block;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 50px;
+}
+
+/* ------For large device------ */
+@media only screen and (min-width: 768px) {
+    .eventsMedia__wrapper {
+        gap: 2rem;
+    }
+
+    .eventsMedia__1__playButton {
+        max-width: 100px;
+    }
+}
+
+
+/* events media section style ends */
