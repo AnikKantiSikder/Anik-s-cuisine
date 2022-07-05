@@ -121,4 +121,12 @@
     }
 }
 
+#dishGrid {
+    padding-bottom: 0;
+}
+
+#dishGrid:last-of-type {
+    padding-bottom: 10rem;
+}
+
 /* our specials section style ends */
